@@ -4,4 +4,4 @@ before_install:
   - git clone https://github.com/YunoHost/package_checker /tmp/package_checker
 
 script:
-  - bash tmp/package_checker/package_check.sh pterodactyl_ynh
+  - bash /tmp/package_checker/package_check.sh pterodactyl_ynh
