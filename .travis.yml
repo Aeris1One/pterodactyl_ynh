@@ -1,7 +1,7 @@
-language: python
+language: bash
 
 before_install:
-  - git clone https://github.com/YunoHost/package_linter /tmp/package_linter
+  - git clone https://github.com/YunoHost/package_checker /tmp/package_checker
 
 script:
-  - /tmp/package_linter/package_linter.py ./
+  - /tmp/package_checker/package_checker.sh pterodactyl_ynh
