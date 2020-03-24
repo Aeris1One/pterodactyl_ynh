@@ -1,7 +1,7 @@
 language: bash
 
 before_install:
-  - git clone https://github.com/YunoHost/package_checker .
+  - git clone https://github.com/YunoHost/package_checker /package_checker
 
 script:
-  - bash package_check.sh pterodactyl_ynh
+  - bash /package_checker/package_check.sh pterodactyl_ynh
